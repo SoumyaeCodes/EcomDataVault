@@ -247,8 +247,6 @@ We employed Apache Airflow to modularized our data pipeline.
 
 **db_to_schema.py:** This module is responsible for cleaning the metadata table by removing invalid image URLs and splits metadata and user review tables into four different table.
 
-We create an interactive Tableau dashboard that can be viewed from [here.](https://public.tableau.com/views/ecom_17305714910920/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
-
 
 ## Folder Structure
 
