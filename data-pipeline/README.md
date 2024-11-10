@@ -237,7 +237,7 @@ We employed Apache Airflow to modularized our data pipeline.
 
 **download_data.py:** This code downloads the data from a specified URL, extract the contents and uploads the extracted file to a cloud storage bucket.
 
-**bucket_connection.py:** This module is responsible for establishes a connection to the Google Cloud Storage bucket using environment variables. 
+**bucket_connection.py:** This module is responsible for establishing a connection to the Google Cloud Storage bucket using environment variables. 
 
 **json_to_csv.py:** This module downloads the JSON file from the cloud storage bucket, converts the JSON data to CSV format using pandas and uploads the CSV back to cloud storage.
 
