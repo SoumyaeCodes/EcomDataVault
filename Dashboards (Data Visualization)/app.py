@@ -70,10 +70,16 @@ def products_price_distribution(df_pm):
     sns.boxplot(x=df_pm['price'], palette='viridis')
     plt.xlim(0, 700)
     plt.title('Price Distribution of Products')
-    plt.xlabel('Price ($)')
+    plt.xlabel('Price ($)',fontsize=14)
+    plt.ylabel('Frequency',fontsize=14)
  
     plt.grid(True)
     plt.tight_layout()
+    image_path = os.path.join('static', 'products_price_distribution.png')
+    plt.savefig(image_path)
+    plt.close()
+
+    return image_path
     
 
 
