@@ -6,3 +6,7 @@ py app.py
 ```
 
 Please note that visualization is done on a sample of our dataset. This is because dealing with the entire dataset would require us to pay for more GCP credits. All of this has been documented in detail in our final report. 
+
+### Remarks
+Please make sure that these libraries are installed in your environment:
+Seaborn, Matplotlib, pandas, Flask, numpy
