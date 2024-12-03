@@ -9,4 +9,4 @@ Please note that visualization is done on a sample of our dataset. This is becau
 
 ### Remarks
 Please make sure that these libraries are installed in your environment:
-Seaborn, Matplotlib, pandas, Flask, numpy
+Seaborn, Matplotlib, pandas, Flask, numpy, Bootstrap
